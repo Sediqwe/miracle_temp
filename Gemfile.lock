@@ -123,7 +123,7 @@ GEM
       actionpack (>= 6.0.0)
       railties (>= 6.0.0)
     io-console (0.5.11)
-    io-wait (0.2.1)
+    io-wait (0.2.0)
     irb (1.4.1)
       reline (>= 0.3.0)
     jbuilder (2.11.5)
@@ -285,6 +285,7 @@ DEPENDENCIES
   capybara
   debug
   importmap-rails
+  io-wait (= 0.2.0)
   jbuilder
   listen (~> 3.2)
   pg
