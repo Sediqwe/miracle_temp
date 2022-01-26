@@ -1,7 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.16.0"
-set :rbenv_type, :user
-set :rbenv_ruby, '3.1.0'
+set :rvm_type, :user
+set :rvm_ruby_version, '3.1.0'
 set :stages, %w(production)
 set :default_stage, "production"
 
